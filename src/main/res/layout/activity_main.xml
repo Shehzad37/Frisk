@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+    tools:context="com.coderchain.sa.frisk4.How"
+    android:background="#eceff1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4"
+        android:fillViewport="false">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/pin"
+                android:background="@drawable/a"
+                android:onClick="action"
+                android:layout_marginTop="92dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/textView77"
+                android:layout_alignRight="@+id/textView23"
+                android:layout_alignEnd="@+id/textView23" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change PIN"
+                android:id="@+id/textView23"
+                android:textColor="#000000"
+                android:textStyle="bold|italic"
+                android:layout_gravity="center_horizontal"
+                android:layout_below="@+id/pin"
+                android:layout_alignRight="@+id/imageView"
+                android:layout_alignEnd="@+id/imageView" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/htf"
+                android:background="@drawable/d"
+                android:onClick="action"
+                android:layout_gravity="right"
+                android:layout_marginLeft="31dp"
+                android:layout_marginStart="31dp"
+                android:layout_below="@+id/textView23"
+                android:layout_toRightOf="@+id/textView23"
+                android:layout_toEndOf="@+id/textView23"
+                android:layout_marginTop="29dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cmd"
+                android:background="@drawable/c"
+                android:onClick="action"
+                android:layout_marginRight="30dp"
+                android:layout_marginEnd="30dp"
+                android:layout_above="@+id/textView25"
+                android:layout_toLeftOf="@+id/textView23"
+                android:layout_toStartOf="@+id/textView23" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to Use"
+                android:id="@+id/textView25"
+                android:textColor="#000000"
+                android:textStyle="bold|italic"
+                android:layout_gravity="right"
+                android:layout_below="@+id/htf"
+                android:layout_alignRight="@+id/htf"
+                android:layout_alignEnd="@+id/htf" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Commands"
+
+                android:id="@+id/textView24"
+                android:textColor="#000000"
+                android:textStyle="bold|italic"
+                android:onClick="action"
+                android:layout_below="@+id/cmd"
+                android:layout_alignRight="@+id/cmd"
+                android:layout_alignEnd="@+id/cmd" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:background="@drawable/b"
+                android:layout_marginTop="28dp"
+                android:layout_below="@+id/textView25"
+                android:layout_alignLeft="@+id/textView29"
+                android:layout_alignStart="@+id/textView29"
+                android:layout_gravity="center_horizontal"
+                android:onClick="action" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uninstall"
+                android:paddingLeft="5dp"
+                android:textColor="#000000"
+                android:textStyle="bold|italic"
+                android:id="@+id/textView29"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="1dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+
+                android:id="@+id/textView77"
+                android:background="#00ca74"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+  <!--  <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </com.google.android.gms.ads.AdView>
+    -->
+
+</RelativeLayout>

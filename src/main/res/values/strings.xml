@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Frisk</string>
+    <string name="dash">DashBoard</string>
+    <string name="comm">Commands</string>
+    <string name="htf">How to use</string>
+    <string name="un">Uninstall</string>
+    <string name="cp">Register New PIN</string>
+    <string name="ep">Enter PIN</string>
+    <string name="banner_ad_unit_id">ca-app-pub-7266458396883741/5788405319</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

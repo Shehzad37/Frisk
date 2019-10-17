@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context="com.coderchain.sa.frisk4.How"
+    android:background="#eceff1">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+
+                android:id="@+id/textView29"
+                android:background="#00ca74"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="How To Use"
+                android:textSize="30dp"
+                android:id="@+id/textView8"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#282829"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Using Any Other Cell Phone send your PIN&lt;space>Command by SMS to your CellPhone to do the desired action.."
+                android:id="@+id/textView2"
+                android:padding="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#282829"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="    For Example:"
+                android:id="@+id/textView9"
+                android:padding="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/textView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#282829"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your PIN is 1234 and you choose Ring command you will SMS like this."
+                android:id="@+id/textView10"
+                android:textColor="#282829"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/textView9"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="31dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1234 Ring"
+                android:padding="5dp"
+                android:id="@+id/textView11"
+                android:textColor="#282829"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="128dp"
+                android:layout_marginStart="128dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="(Get the Commands from the DashBoard )"
+                android:textColor="#282829"
+                android:layout_marginTop="25dp"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:id="@+id/textView27" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Description"
+                android:id="@+id/textVie"
+                android:padding="5dp"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#282829"
+                android:textStyle="bold"
+                android:textSize="30dp"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="When you forget your password or your pattern lock you can simply remove it or you can change it to a new password with just a SMS. Like this it has much more features you can do all these things By Just A simple SMS. &#xA;&#xA;Just borrow a phone from your friend and send your PIN&lt;space>COMMAND to your phone and delete your message after sending it and you will have the desired action when sms receives on your phone according to command you sent.It was never so easy before.&#xA;&#xA;."
+                android:id="@+id/textVi"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#282829"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="How Does it work?"
+                android:id="@+id/textV"
+                android:textSize="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#282829"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:padding="5dp"
+                android:layout_height="wrap_content"
+                android:text="You just have to run Frisk for Once and leave it. It will do all the work in background when it recieves any of its commands as SMS.&#xA;&#xA;It automatically runs when phone restarts.&#xA;&#xA;You must Activate app as Admin to use all the features.&#xA;&#xA;Keep your PIN to yourself only and Delete message after you send it fron other phones.&#xA;&#xA;Remember the simple Commands from Commands menu."
+                android:id="@+id/text"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/textView8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#282829"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="com.coderchain.sa.frisk4.Comm"
+    android:background="#fefefe">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. ring"
+                android:background="#282829"
+                android:id="@+id/textView13"
+                android:layout_below="@+id/textView12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This Command will change The device to Ring mode.&#xA;&#xA;SMS :&#xA;           Your PIN&lt;space>ring"
+                android:id="@+id/textView14"
+                android:textColor="#282829"
+                android:textStyle="bold"
+                android:layout_below="@+id/textView13"
+                android:layout_toRightOf="@+id/textView13"
+                android:layout_toEndOf="@+id/textView13"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. vibrate"
+                android:background="#282829"
+                android:id="@+id/textView15"
+                android:layout_below="@+id/textView14"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="33dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This Command will change The device to Vibrate mode.&#xA;&#xA;SMS :&#xA; &#xA;          Your PIN&lt;space>vibrate"
+                android:id="@+id/textView16"
+
+                android:textColor="#282829"
+                android:textStyle="bold"
+                android:layout_below="@+id/textView15"
+                android:layout_toRightOf="@+id/textView15"
+                android:layout_toEndOf="@+id/textView15"
+                android:layout_marginTop="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. wipe"
+                android:background="#282829"
+                android:id="@+id/textView17"
+                android:layout_below="@+id/textView16"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="35dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Will erase all your data from your phone, performing a “factory reset”. This is specially useful to protect your private information when device is lost, but could render Frisk useless. Use with caution! &#xA;&#xA;SMS :&#xA;           Your PIN&lt;space>wipe"
+                android:id="@+id/textView18"
+                android:textColor="#282829"
+                android:textStyle="bold"
+                android:layout_marginTop="25dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/textView15"
+                android:layout_toEndOf="@+id/textView15" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. Lock"
+                android:background="#282829"
+                android:id="@+id/textView19"
+                android:layout_below="@+id/textView18"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="This Command will immediately Lock the Screen.(When the device is in the Worng hands.)&#xA;&#xA;SMS :&#xA;           Your PIN&lt;space>lock"
+                android:id="@+id/textView20"
+
+                android:textColor="#282829"
+                android:textStyle="bold"
+                android:layout_below="@+id/textView19"
+                android:layout_toRightOf="@+id/textView15"
+                android:layout_toEndOf="@+id/textView15"
+                android:layout_marginTop="41dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. scare"
+                android:background="#282829"
+                android:id="@+id/textView21"
+                android:layout_below="@+id/textView20"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activates Horror Screaming sound,specially useful to find your device lost in your house, office, or even during a trip.. and also you can prank your friends &#xA;&#xA;SMS :&#xA;           Your PIN&lt;space>scare"
+                android:id="@+id/textView22"
+                android:textColor="#282829"
+                android:textStyle="bold"
+                android:layout_below="@+id/textView21"
+                android:layout_alignLeft="@+id/textView20"
+                android:layout_alignStart="@+id/textView20"
+                android:layout_marginTop="42dp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. stop"
+                android:id="@+id/textView23"
+                android:background="#282829"
+                android:layout_below="@+id/textView20"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stop the Screaming sound.&#xA;&#xA;SMS :&#xA;           Your PIN&lt;space>stop"
+                android:id="@+id/textView24"
+                android:textColor="#282829"
+                android:textStyle="bold"
+                android:layout_below="@+id/textView21"
+                android:layout_alignLeft="@+id/textView20"
+                android:layout_alignStart="@+id/textView20"
+                android:layout_marginTop="42dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. changepassto"
+                android:id="@+id/textView25"
+                android:background="#282829"
+                android:layout_below="@+id/textView20"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It Changes the Pattern or Password to a New Password. Useful when you forget your password or pattern lock.&#xA;&#xA;SMS :&#xA;           Your PIN&lt;space>changepassto&lt;space>YourNewPassword&#xA;&#xA;for example :&#xA;&#xA;1234 changepassto 123frisk&#xA;&#xA;now your new password will be 123frisk."
+                android:id="@+id/textView26"
+                android:textColor="#282829"
+                android:textStyle="bold"
+                android:layout_below="@+id/textView21"
+                android:layout_alignLeft="@+id/textView20"
+                android:layout_alignStart="@+id/textView20"
+                android:layout_marginTop="42dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. removelock"
+                android:id="@+id/textView27"
+                android:background="#282829"
+                android:layout_below="@+id/textView20"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="27dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It Removes the Pattern or Password. Useful when you forget your password or pattern lock.&#xA;&#xA;SMS :&#xA;           Your PIN&lt;space>removelock"
+                android:id="@+id/textView2"
+                android:textColor="#282829"
+                android:textStyle="bold"
+                android:layout_below="@+id/textView21"
+                android:layout_alignLeft="@+id/textView20"
+                android:layout_alignStart="@+id/textView20"
+                android:layout_marginTop="42dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
