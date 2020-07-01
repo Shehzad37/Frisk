@@ -7,7 +7,11 @@ Android App uses specific text message format to unlock, remove or change the mo
 * Very light weighted application
 * Secured by password
 
-* Usage
+# Usage
 * Open Project in Andriod Studio
 > or
 * Run build.gradle
+
+# Requirements
+* Android Studio
+* Works on Android Lollipop(5.0) or Lower
