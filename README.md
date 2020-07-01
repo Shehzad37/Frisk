@@ -1,2 +1,13 @@
 # Frisk
-Security related android app which can make your life easier( works up-to android 5.1.1 lollipop). Change any type of Screen Lock by just an SMS.
+Android App uses specific text message format to unlock, remove or change the mobile password in case of forgotten passwords or pattern locks.
+
+# Features
+* Remove any lock without resetting the mobile
+* Saves your personal data from erasing
+* Very light weighted application
+* Secured by password
+
+* Usage
+* Open Project in Andriod Studio
+> or
+* Run build.gradle
